@@ -1,0 +1,65 @@
+Objectives:
+	- Interface(Default and Static Methods)
+	- Funtional Interface 
+	- Lambda Expressions
+	- Data Munging 2
+	- Logical Exercise 2
+	- Java -8  : Lambdas
+	
+	
+Interfaces:
+	- default
+	- static
+Lambda Expressions:
+	- Functions which do not have a name(anonymous functions)
+	- LE can be assigned to a variable
+	- Pass LE as a argument to a method
+	- Return type LE is a functional Interface
+	- more readable  and concise
+	
+syntax :
+	input arguments  -> body of the functions
+	(s1,s2) - > {}
+	
+	String s = "Anne"
+	Predicate p = (s) -> s.contains("An");
+	Consumer c	= (s) -> System.out.println(s);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
