@@ -1,0 +1,51 @@
+Objectives :
+	- Stream API
+	- Data Munging : 3
+	- Logical Exercise: 3
+	- Java-8 Exercise : StreamAPI
+	
+Streams : 
+	- Sequence of Objects which you can get from an array, collection or I/O resources.
+	- Perform operations on the the data from the resource
+	
+Operations:
+	- Intermediate Operations:
+		- returns a stream
+		- chain multiple operations
+		- Lazily evaluated
+		- do not closed the stream
+		- filtering, sorting ,  transforming, limit
+	- Terminal Operations:
+		- End of the stream
+		- cannot be used again
+		- display, store, find, statistics
+		
+Create a Stream --->i1,i2,i3---> Terminal Operations
+
+Intermediate Operations:
+	- filter()
+	- limit(n)
+	- skip(n)
+	- sorted()
+	- sorted(Comparator)
+	- map(Function) --->Transforms stream  from one type to another type
+	- mapToObj,mapToInt,mapToDouble
+	- flatMap(Function)  --> to flatten the streams of nested data structures		
+	
+Terminal:
+	- forEach(Consumer)
+	- toArray()
+	- collect()
+	- searching()-->findFirst(),findAny()
+	- Matching() -->  anyMatch(),allMatch(),noneMatch()
+	- Agregate Functions : sum, count, max, min, average, summaryStatistics	
+		
+Comparator:
+	- comparing
+	- thenComparing		
+		
+		
+		
+		
+		
+		
