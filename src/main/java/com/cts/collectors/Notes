@@ -1,0 +1,63 @@
+Objectives:
+	- Optional
+	- Special Streams
+	- Collectors
+	- Data Munging : 3
+	- Logical exercise :4
+	- Java 8 exercise : Collectors & Special Streams
+	
+Optional :
+	- Handles null check and avoid NPE
+	
+Creating an Optional:
+Employee emp = new Employee();
+Employee emp1
+	- Optional.empty
+	- Optional.of(emp);
+	- Optional.ofNullable(emp1);
+	
+Methods:
+	- get()
+	- isPresent()
+	- ifPresent()
+	- orElse()
+	- orElseThrow()
+	
+	
+Collectors:
+	- toCollection
+	- toList
+	- toSet
+	- toMap
+	- joining
+	- mapping
+	- reduce
+	- groupBy
+	- summarizingInt
+	- counting
+	- minBy
+	- maxBy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
