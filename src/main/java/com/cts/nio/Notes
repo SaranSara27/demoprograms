@@ -1,0 +1,40 @@
+Objectives:
+	- NIO : Non Blocking Input Output
+	- Data Munging - 4
+	- Logical Exercise
+	- Java-8 : NIO 
+	
+Non Blocking Input Output
+	File--->Path
+	- Path is the  location where the file is stored
+	- methods  are provided to access the location
+	
+	Path p = Paths.get("c:/documents/dir/file.txt")
+			Paths.get("c:/","documents","dir","file.txt")
+		
+- list(Path): First level of dir structure
+- walk(Path): recursively walks through the entire dir structure
+- find(Path): current dir and  sub dir
+
+Reading From a File
+	-  lines()--->Stream<String>
+	- newBufferedReader(Path)
+	- readAllLine-->List<String>
+	
+Writing into a File
+	- write(Path,List<String)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
