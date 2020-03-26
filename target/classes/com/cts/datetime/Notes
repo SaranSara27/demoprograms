@@ -1,0 +1,46 @@
+Objective
+	- Date Time API
+	- Logical Exercise
+	- Java-8 Exercise : Date Time
+	
+Date and Time API(Java-7)
+	- java.util
+	- Date, Calendar, SimpleDateFormat
+	- Mutable
+	- Complexity
+	- No classes  provided to handle Time Zone
+	
+External API : Joda Time API
+
+Java - 8 : 
+	- java.time
+	- lots and lots of methods for date manipulation
+	- Immutable
+	- Handle Time Zones
+
+java.time
+	- LocalDate
+	- LocalTime
+	- LocalDateTime
+	- ZonedDateTime
+	- DateTimeFormat
+	- Duration
+	- Period
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+Objectives:
+	- Design Patterns
+	- Data Munging 5
+	- Logical Exercise
+	- Exercise on DesignPatterns
+	
+Design Patterns:
+	- Pattern is a effective and well proved solution (Common/Repetitive)
+	- Not  bound to any Language, Independent Stratergies
+	- Long Period, as they provide solution
+	- Quick and effective
+	
+	
+Creational Desisgn Pattern:
+	- Provides statergies for Creating objeccts
+		- Singleton
+		- FactoryPattern
+		- Abstract Factory Pattern
+		- BuilderPattern
+			movieId,price,feedback, ratings, contactDetails
+			
+			Customer(1,2,3,4)
+			Customer(1,2,3)
+			Customer(1,2,4,5,)
+			
+Structural Design Patterns:
+	- Objects combined together to form a larger sturucture:
+		- AdapterPattern
+		- DecoratorPattern
+		- BridgePattern
+		- DAO Pattern
+		- FacadeChain 
+				
+Behavioral Design Pattern:
+	- Communication Between Objects
+		- Command Patterns
+		- Iteration
+		-  ObserverPattern
+
+Architectural Pattern
+	- DTO: An object which carries data between processes
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

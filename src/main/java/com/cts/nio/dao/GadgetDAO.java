@@ -1,10 +1,13 @@
 package com.cts.nio.dao;
 
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.List;
+import java.util.Properties;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -45,6 +48,63 @@ public class GadgetDAO {
 		return new Gadgets(Integer.parseInt(input[0]),input[1],Double.parseDouble(input[2]),input[3]);
 		
 	}
+	public static void recieveData() {
+		try {
+			List<String> dataList = Files.readAllLines(path);
+			Files.write(Paths.get("dir","copyGadget.csv"),dataList , StandardOpenOption.CREATE);
+		
+		}
+		catch(IOException io) {
+			io.printStackTrace();
+		}
+	}
+	public static void writingIntoPropertiesFile() {
+		List<Gadgets> gadgetData = getGadgetData();
+		Properties prop = new Properties();
+		for (Gadgets gadgets : gadgetData) {
+			prop.setProperty(String.valueOf(gadgets.getGadgetId()), gadgets.getGadgetName());
+		}
+		BufferedWriter buffer;
+		try {
+			buffer = Files.newBufferedWriter(Paths.get("dir","gadget.properties"), StandardOpenOption.CREATE);
+			prop.store(buffer,"Gadget Data Updated");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("Task Completed");
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
